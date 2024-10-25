@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(/Roboto-Regular.ttf);
+} 
+body {
+    background-color: #eeeff1;
+    width: 1920px;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 611px;
+    height: 16px;
+    margin-top: 79px;
+    margin-left: 399px;
+    gap: 30px;
+    
+}
+a:visited {
+    color: inherit;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}    
+.main_page {
+    margin-top: 162px;
+    margin-left: 435px;
+}
+.main_page h1 {
+    width: 541px;
+    height: 45px;
+    font-size: 48px;
+    color: black;
+}
+.main_page p {
+    margin-top: 60px;
+    width: 500px;
+    height: 67px;
+    font-size: 16px;
+    color: #727272;
+}
+.main_page button {
+    width: 225px;
+    height: 65px;
+    margin-top: 65px;
+    background-color: #34547A;
+    color: white;
+}
+.about_me {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 282px;
+    text-align: center; 
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.about_me h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+    color: #000000;
+    margin-top: 125px;
+    font-size: 32px;
+}
+.about_me p {
+    color: #727272;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 500px;
+    margin-left: 699px;
+}
+.my_works {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 250px;
+    width: 100%;
+    background-color: #34547A;
+    align-items: center;
+}    
+.my_works img {
+    width: 141px;
+    height: 50px;
+}
+.my_process {
+    height: 1004px;
+    width: 100%;
+}
+.my_process h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+    color: #000000;
+    margin-top: 150px;
+    font-size: 32px;
+    margin-left: 850px;
+}
+.my_process p {
+    color: #727272;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 500px;
+    margin-left: 720px;
+}
+.my_process img {
+    width: 1110px;
+    height: 600px;
+    margin-top: 57px;
+    margin-left: 400px;
+}
+.contacts {
+    height: 151px;
+    width: 100%;
+    background-color: #34547A;
+}
+.contacts h1 {
+    margin-left: 400px;
+    color: white;
+    font-size: 21px;
+    padding-top: 50px;
+}
+.contacts p {
+    margin-left: 400px;
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
